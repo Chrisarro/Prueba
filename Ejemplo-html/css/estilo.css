@@ -1,0 +1,31 @@
+body{
+    background-color: chartreuse;
+
+}
+h1{
+    color: black;
+    text-align: center;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: blue;
+}
+table{
+    width: 100%;
+    border-spacing: 5px;
+}
+table, th, th{
+    border: 1px solid white ;
+    border-radius: 8px;
+}
+th{
+    background-color: cadetblue;
+    text-align: left;
+    padding: 6px;
+}
+td{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 5px ;
+}

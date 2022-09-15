@@ -1,0 +1,52 @@
+.colorblanco{
+    color: white;
+}
+.fondo{
+    background-color: deeppink;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.izquierda{
+    text-align: left;
+}
+
+.tabla{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.enctabla{
+    padding: 5px;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: beige;
+}
+.imagenes{
+    width: 180px;
+}
+
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: #EB984E;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-family: tahoma;
+}
+
+li a:hover{
+background-color: #34495E;
+}
