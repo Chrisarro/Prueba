@@ -2,7 +2,7 @@
     color: white;
 }
 .fondo{
-    background-color: deeppink;
+    background-color: #a89897;
 }
 
 .centrado{
@@ -32,7 +32,8 @@
     background-color: beige;
 }
 .imagenes{
-    width: 180px;
+    width: 80px; 
+    height: 80px;
 }
 
 li{
@@ -40,7 +41,7 @@ li{
 }
 li a{
     display: block;
-    color: #EB984E;
+    color: #ca6614;
     text-align: center;
     padding: 15px;
     text-decoration: none;

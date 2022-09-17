@@ -1,0 +1,29 @@
+.fondo{
+    background-color: rgb(189, 130, 166);
+}
+.titulo{
+    color: rgb(49, 4, 19);
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 25px;
+}
+#formulario{
+    width: 400px;
+    padding: 20px;
+    border-radius: 13px;
+    margin: auto;
+    background-color: rgb(144, 144, 218);
+    font-family: tahoma;
+}
+form input{
+    padding: 3px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 8px 10px;
+    display: inline-block;
+
+}
+.botones{
+    text-align: center;
+    font-weight: bold;
+}
