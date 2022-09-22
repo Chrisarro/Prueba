@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<s<>, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">   
+    <title>Document</title>
+    <style>
+        h2{
+            color: blue;
+        }
+        div{
+            background-color: blue;
+            width: 20px;
+            height: 40px;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <script>
+
+        function mostrarRango(a,b){
+            for(i=a; i<=b, i++){
+                document.write("<div> + i + </div>")
+            }
+        }
+
+    </script>
+    <!--
+    <script>
+        var cont, n;
+        n=prompt("Ingrese un numero")
+        document.write("<h1>Hola" + n + "veces</h1><br>")
+        for(cont=0;cont<n;cont++){
+            document.write("<h2>" + cont + "=>" + "Hola</h2><br>")
+        }
+    </script>
+
+    <script>
+        var nombre=['ana','cesia','yina','nadia','dana']
+        var lista=[
+            {
+                'nombre': 'ana',
+                'apellido':'madrid',
+                'telefono':'123'
+            },
+            {
+                'nombre': 'cesia',
+                'apellido':'parra',
+                'telefono':'456'
+            },
+            {
+                'nombre': 'yina',
+                'apellido':'garces',
+                'telefono':'764'
+            },
+            {
+                'nombre': 'nadia',
+                'apellido':'mejia',
+                'telefono':'341'
+            }
+        ]
+        document.write("<table>")
+        document.write("<tr>")
+        document.write("<th> N. </th>")     
+        document.write("<th> Nombre </th>")
+        document.write("<th> Apellidos </th>")
+        document.write("<th> Telefono </th>")
+        document.write("</tr>")   
+        for(var i=0; i<lista.length; i++){
+           document.write("<tr>")
+           document.write("<td>" + (i+1)+ "</td>")
+           document.write("<td> "+ lista[i]['nombre'] + "</td>")
+           document.write("<td>" + lista[i]['apellido'] + "</td>")
+           document.write("<td>" + lista[i]['telefono'] + "</td>") 
+           document.write("</tr>")   
+        }
+        document.write("</table>")
+    </script>
+    <script>
+
+        var i = 0;
+        while (i<=5){
+            document.write("<h3>"+i+"</h3>")
+            i++;
+        }
+    </script>
+     <script>
+
+        var i = 0;
+        do{
+            i++;
+            document.write("<div>" + i + "</div>")
+        }while(i<10);
+    </script>
+    -->
+    
+
+    <!--
+    <script>
+        var user;
+        var pass;
+        user = prompt('Ingrese el Usuario')
+        pass = prompt('Ingrese la Contraseña')
+        if(user=='chris' && pass == 'abc123'){
+            alert('Acceso Concedido')
+        }else{
+            alert('Acceso Denegado')
+        }
+    </script>
+    -->
+</body>
+
+</html>
